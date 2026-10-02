@@ -1,0 +1,937 @@
+# 1. 研究定位與工作狀態
+
+## 1.1 本篇目的
+
+第一篇主要建立局域 runtime、Photon-0 與局域 transaction。
+
+第二篇退回更底層，處理：
+
+\[
+\boxed{\text{這些不同的局域物理實體，是否可以共享同一套最小太極帳本模板？}}
+\]
+
+本文提出 Mother–COPY 工作架構：
+
+\[
+\boxed{\text{宇宙只有一套太極母模板；局域實體是此共同模板在時空中的不同 COPY。}}
+\tag{1.1}
+\]
+
+COPY 複製的是共同結構、規則與母參數，而不是完全相同的瞬時狀態。
+
+因此：
+
+\[
+\boxed{\text{COPY 同模板}\neq\text{COPY 同狀態}.}
+\tag{1.2}
+\]
+
+本文的基本層刻意止於：
+
+\[
+\boxed{E,\quad\mathbf P,\quad\mathbf J,\quad Q}
+\]
+
+四守恆。
+
+粒子譜、穩定性、自旋量子化、基本電荷量子化與絕對質量尺度不反向寫入 Mother–COPY 的基本定義。
+
+## 1.2 研究狀態
+
+由於本文是研究草稿而非最終定論，後續統一使用四種狀態：
+
+\[
+\boxed{\text{CURRENT / TRY / PARK / DROP}.}
+\tag{1.3}
+\]
+
+**CURRENT**：目前主線採用的工作架構，可隨後續研究修改。
+
+**TRY**：值得測試但尚未證成的候選。
+
+**PARK**：曾得到有價值結果，但目前不進主線。
+
+**DROP**：目前已找到明顯問題；除非有新理由，不重新作為主線前提。
+
+因此 Mother–COPY v1 是目前的：
+
+\[
+\boxed{\text{working checkpoint}}
+\]
+
+而不是不可修改的最終公理體系。
+
+## 1.3 三個必須保持的分層
+
+本文首先固定三個區別：
+
+\[
+\boxed{\text{COPY 同模板}\neq\text{COPY 同狀態},}
+\tag{1.4}
+\]
+
+\[
+\boxed{\text{守恆合法}\neq\text{穩定成熟},}
+\tag{1.5}
+\]
+
+以及：
+
+\[
+\boxed{\text{黑白兩儀}\neq\text{電荷共軛}.}
+\tag{1.6}
+\]
+
+這三者若重新混合，後續粒子分類很容易反向污染 Mother–COPY 基礎。
+
+# 2. M1：Universe Master Ledger
+
+## 2.1 宇宙總帳
+
+定義宇宙為：
+
+\[
+\boxed{\mathbb U=\left(\mathcal M_{3+1},\mathcal L_{\rm master}\right).}
+\tag{2.1}
+\]
+
+其中：
+
+\[
+\mathcal M_{3+1}
+\]
+
+是共同物理時空，
+
+\[
+\mathcal L_{\rm master}
+\]
+
+是宇宙 Master Ledger。
+
+因此「大太極」在第二篇中不需要被理解成宇宙裡另一個巨大物體，而可以重新定位為：
+
+\[
+\boxed{\text{共同時空中所有局域帳目、交易與相互作用所形成的總帳結構。}}
+\tag{2.2}
+\]
+
+## 2.2 時空只有一套
+
+所有局域 COPY 均存在於：
+
+\[
+\boxed{\mathcal M_{3+1}}
+\]
+
+中。
+
+本文不引入：
+
+- 黑側專屬時空；
+- 正負輪替的兩套時空；
+- 額外的物理虛數空間。
+
+若後續使用：
+
+\[
+i,\quad e^{i\theta},\quad\mathbb C^2
+\]
+
+等複數結構，它們只屬於數學 representation。
+
+因此：
+
+\[
+\boxed{i=\text{modeling language},}
+\tag{2.3}
+\]
+
+而不是新的物理坐標軸。
+
+## 2.3 Master Ledger 的職責
+
+Master Ledger 不預先指定：
+
+> 這本子帳必須是電子、光子或其他粒子。
+
+它只負責所有帳目之間的守恆審計。
+
+因此因果角色分開：
+
+\[
+\boxed{\text{Mother template：提供共同規則}}
+\]
+
+\[
+\boxed{\text{local state / Mapping：形成具體狀態}}
+\]
+
+\[
+\boxed{\text{Master Ledger：審計交易與守恆}.}
+\tag{2.4}
+\]
+
+# 3. M2：唯一 Mother Template 與局域 COPY
+
+## 3.1 共同母模板
+
+定義唯一太極母模板：
+
+\[
+\boxed{\mathfrak T}.
+\]
+
+其允許的狀態集合記為：
+
+\[
+\boxed{\mathcal X_{\mathfrak T}.}
+\tag{3.1}
+\]
+
+第 \(a\) 個局域實體為：
+
+\[
+\boxed{\mathcal L_a=C_a[\mathfrak T;T_a],\qquad T_a\in\mathcal X_{\mathfrak T}.}
+\tag{3.2}
+\]
+
+其中：
+
+\[
+C_a
+\]
+
+只表示第 \(a\) 個局域實例。
+
+它不是電子專用、光子專用或質子專用的 COPY operator。
+
+## 3.2 COPY 複製的是規則，不是瞬時數值
+
+對任意兩份 COPY：
+
+\[
+\boxed{\mathfrak T_a\simeq\mathfrak T_b\simeq\mathfrak T.}
+\tag{3.3}
+\]
+
+但一般：
+
+\[
+\boxed{T_a\neq T_b.}
+\tag{3.4}
+\]
+
+因此兩份 COPY 可以有不同：
+
+\[
+x_a^\mu,\quad x_b^\mu,
+\]
+
+不同：
+
+\[
+P_a^\mu,\quad P_b^\mu,
+\]
+
+甚至不同的 physical readout class。
+
+這些差異都不需要修改 Mother template。
+
+## 3.3 無參數 COPY
+
+若 Mother template 具有共同參數集合：
+
+\[
+\Lambda_{\mathfrak T},
+\]
+
+則所有 COPY 必須：
+
+\[
+\boxed{\Lambda_a=\Lambda_b=\Lambda_{\mathfrak T}.}
+\tag{3.5}
+\]
+
+因此「無參數 COPY」不是：
+
+\[
+\Lambda_{\mathfrak T}=\varnothing.
+\]
+
+本文並未宣稱宇宙完全沒有基本常數。
+
+真正禁止的是：
+
+\[
+\boxed{\text{為不同 COPY 另外配置不同的母參數。}}
+\tag{3.6}
+\]
+
+粒子差異若存在，應來自：
+
+\[
+\boxed{\text{state / Mapping / interaction / composition / readout}}
+\]
+
+而不是每種粒子重新建立一套 Mother template。
+
+# 4. M3：太極黑白雙帳與外顯淨帳
+
+## 4.1 雙帳 decomposition
+
+對成熟太極狀態：
+
+\[
+T_a\in\mathcal X_{\mathfrak T},
+\]
+
+定義黑白雙帳 decomposition：
+
+\[
+\boxed{\mathscr D(T_a)=(K_{W,a},K_{B,a}).}
+\tag{4.1}
+\]
+
+統一四帳向量：
+
+\[
+\boxed{K=(E,\mathbf P,\mathbf J,Q).}
+\tag{4.2}
+\]
+
+其中：
+
+- \(E\)：能量；
+- \(\mathbf P\)：線動量；
+- \(\mathbf J\)：角動量；
+- \(Q\)：電荷。
+
+\(W/B\) 是同一太極狀態的兩側帳目，不是兩個獨立粒子。
+
+## 4.2 黑側能量符號
+
+目前工作版本採：
+
+\[
+\boxed{E_W\ge0,\qquad E_B\le0.}
+\tag{4.3}
+\]
+
+但不再普遍要求：
+
+\[
+E_W=-E_B.
+\]
+
+黑白等幅只屬於特殊的理想真空平衡：
+
+\[
+\boxed{E_W+E_B=0\qquad(\text{ideal vacuum balance}).}
+\tag{4.4}
+\]
+
+一般粒子或局域實體允許：
+
+\[
+\boxed{E_W+E_B>0.}
+\tag{4.5}
+\]
+
+因此：
+
+\[
+\boxed{\text{黑側負向}\neq\text{黑白永遠等幅}.}
+\tag{4.6}
+\]
+
+這項修正保留黑側作為負向能量帳的基本語言，同時避免把真空的等幅條件錯誤推廣到所有物理實體。
+
+## 4.3 外顯淨帳
+
+定義子帳對外的淨四帳：
+
+\[
+\boxed{K_a^{\rm net}=K_{W,a}+K_{B,a}.}
+\tag{4.7}
+\]
+
+因此 bookkeeping residual：
+
+\[
+\boxed{\Phi_a\equiv K_{W,a}+K_{B,a}-K_a^{\rm net}.}
+\tag{4.8}
+\]
+
+合法帳目要求：
+
+\[
+\boxed{\Phi_a=0.}
+\tag{4.9}
+\]
+
+最重要的分層為：
+
+\[
+\boxed{\Phi=0\neq K^{\rm net}=0.}
+\tag{4.10}
+\]
+
+「平帳」指會計恆等式殘差為零，不代表一本物理子帳的淨額必須為零。
+
+## 4.4 真空與粒子
+
+理想真空可以具有：
+
+\[
+\boxed{K_{\rm vac}^{\rm net}=0.}
+\tag{4.11}
+\]
+
+此時黑白帳可以完全對銷。
+
+但一般粒子完全可以：
+
+\[
+\boxed{K_{\rm particle}^{\rm net}\neq0.}
+\]
+
+例如電子可以具有：
+
+\[
+Q^{\rm net}=-e,
+\]
+
+同時仍滿足：
+
+\[
+\Phi_Q=0.
+\]
+
+光子也可以具有：
+
+\[
+E_\gamma^{\rm net}>0
+\]
+
+而：
+
+\[
+Q_\gamma^{\rm net}=0.
+\]
+
+因此：
+
+\[
+\boxed{\text{正負平帳}}
+\]
+
+與：
+
+\[
+\boxed{\text{粒子具有正淨能量或非零淨電荷}}
+\]
+
+並不矛盾。
+
+## 4.5 黑白 decomposition 的單值性
+
+目前只採工作假說：
+
+\[
+\boxed{T\text{ 一旦完整確定，}\mathscr D(T)\text{ 應為單值。}}
+\tag{4.12}
+\]
+
+但是 M1–M4 尚不能證明這件事。
+
+若只知道：
+
+\[
+K^{\rm net}=K_W+K_B,
+\]
+
+形式上仍允許：
+
+\[
+K_W\rightarrow K_W+\Delta K,
+\]
+
+\[
+K_B\rightarrow K_B-\Delta K,
+\]
+
+而：
+
+\[
+K^{\rm net}
+\]
+
+保持不變。
+
+因此四守恆固定的是外顯淨帳，並不自動固定黑白內部分帳。
+
+所以：
+
+\[
+\boxed{\mathscr D\text{ 單值性 = OPEN}.}
+\tag{4.13}
+\]
+
+本文不再把：
+
+\[
+B=\mathscr C[W]
+\]
+
+或「黑側 zero-nullity」當成已經由四守恆證明的結果。
+
+若未來能找到 Mother template 的額外結構，使：
+
+\[
+T\longrightarrow(K_W,K_B)
+\]
+
+必然唯一，才將 Black Non-Independence 從工作假說升級。
+
+# 5. M4：四守恆
+
+## 5.1 自由 settled 子帳
+
+若第 \(a\) 本子帳沒有與其他帳交換：
+
+\[
+\boxed{\frac{dK_a^{\rm net}}{d\tau}=0.}
+\tag{5.1}
+\]
+
+即：
+
+\[
+\boxed{\frac{dE}{d\tau}=0,\quad\frac{d\mathbf P}{d\tau}=0,\quad\frac{d\mathbf J}{d\tau}=0,\quad\frac{dQ}{d\tau}=0.}
+\tag{5.2}
+\]
+
+這是自由 settled state 的四帳守恆形式。
+
+## 5.2 有 interaction 的情況
+
+若局域子帳之間發生交換，可寫：
+
+\[
+\frac{dK_a^{\rm net}}{d\tau}=I_a.
+\]
+
+其中：
+
+\[
+I_a
+\]
+
+表示該帳與其他帳之間的四帳交換流。
+
+總交換必須：
+
+\[
+\boxed{\sum_a I_a=0.}
+\tag{5.3}
+\]
+
+因此任何局域 transaction：
+
+\[
+A+B+\cdots\rightarrow C+D+\cdots
+\]
+
+均要求：
+
+\[
+\boxed{\sum_{\rm in}K^{\rm net}=\sum_{\rm out}K^{\rm net}.}
+\tag{5.4}
+\]
+
+展開即為：
+
+\[
+\boxed{E,\qquad\mathbf P,\qquad\mathbf J,\qquad Q}
+\]
+
+四守恆。
+
+## 5.3 無生權與重新分帳
+
+Mother–COPY 不允許在 transaction 中憑空建立未結算的四帳。
+
+因此物理過程的基本語言為：
+
+\[
+\boxed{\text{re-partition / re-accounting}}
+\]
+
+而不是：
+
+\[
+\boxed{\text{ex-nihilo creation of unbalanced ledger}.}
+\]
+
+新形成的局域實體可以具有新的：
+
+\[
+K_a^{\rm net},
+\]
+
+但所有 output 的總和必須與 input 相等。
+
+所以 Master Ledger 的角色是：
+
+\[
+\boxed{\text{允許重新分帳，但不允許未平帳的生成或消失。}}
+\tag{5.5}
+\]
+
+## 5.4 四守恆不是粒子譜選擇律
+
+四守恆只能回答：
+
+\[
+\boxed{\text{這個物理帳態是否合法？}}
+\]
+
+它不能單獨回答：
+
+\[
+\boxed{\text{這個合法態是否形成成熟粒子？}}
+\]
+
+例如：
+
+\[
+(m=0,Q=0),
+\]
+
+\[
+(m>0,Q=0),
+\]
+
+\[
+(m=0,Q\neq0),
+\]
+
+以及：
+
+\[
+(m>0,Q\neq0)
+\]
+
+都可以在帳簿層滿足：
+
+\[
+E,\mathbf P,\mathbf J,Q
+\]
+
+守恆。
+
+因此：
+
+\[
+\boxed{\text{Ledger Legality}\neq\text{Entity Selection}.}
+\tag{5.6}
+\]
+
+這是 Mother–COPY v1 的重要邊界。
+
+## 5.5 Mother–COPY CORE 的停止點
+
+M1–M4 的任務只到：
+
+\[
+\boxed{\text{共同總帳}+\text{共同 Mother template}+\text{局域 COPY}+\text{黑白雙帳}+\text{四守恆}.}
+\tag{5.7}
+\]
+
+它不負責直接決定：
+
+- 哪些合法態必然穩定；
+- 哪些粒子必然存在；
+- 自旋必須是多少；
+- 電荷基本單位是多少；
+- 質量的絕對數值是多少。
+
+這些問題全部下放到：
+
+\[
+\boxed{\text{Mapping / Maturity / Readout / Entity Selection}.}
+\tag{5.8}
+\]
+
+因此後續研究即使修改粒子分類，也不必自動修改 M1–M4。
+
+# 6. Mapping、Readout 與成熟性接口
+
+## 6.1 Mapping
+
+Mother–COPY CORE 只規定所有局域 COPY 共用同一 Mother template：
+
+\[
+\mathfrak T.
+\]
+
+具體狀態則允許在共同狀態空間中發生 Mapping：
+
+\[
+\boxed{U:\mathcal X_{\mathfrak T}\rightarrow\mathcal X_{\mathfrak T}.}
+\tag{6.1}
+\]
+
+作用寫為：
+
+\[
+\boxed{T\rightarrow U(T).}
+\tag{6.2}
+\]
+
+Mapping 改變的是：
+
+\[
+\boxed{\text{同一 Mother template 中的狀態}}
+\]
+
+而不是：
+
+\[
+\boxed{\text{Mother template 本身}.}
+\]
+
+因此不同物理實體不需要：
+
+\[
+\mathfrak T_\gamma,\qquad\mathfrak T_e,\qquad\mathfrak T_\nu
+\]
+
+等不同母模板。
+
+其差異原則上可以來自：
+
+\[
+\boxed{T,\quad U,\quad interaction,\quad composition,\quad readout.}
+\tag{6.3}
+\]
+
+目前不預設：
+
+\[
+U^2=I,
+\]
+
+也不預設：
+
+\[
+U\in SU(2),\qquad U\in\mathbb Z_2,\qquad U=i.
+\]
+
+若這些數學結構未來由物理 Mapping 自然產生，再加入。
+
+因此因果方向固定為：
+
+\[
+\boxed{\text{physical Mapping}\rightarrow\text{mathematical representation}.}
+\tag{6.4}
+\]
+
+而不是：
+
+\[
+i^n\rightarrow\text{強迫自然界產生某種物理狀態}.
+\]
+
+## 6.2 質量 Readout
+
+對子帳外顯四動量：
+
+\[
+P^\mu=\left(\frac{E}{c},\mathbf P\right),
+\]
+
+定義 Lorentz-invariant mass readout：
+
+\[
+\boxed{m^2c^4=E^2-c^2|\mathbf P|^2.}
+\tag{6.5}
+\]
+
+因此：
+
+\[
+\boxed{P^\mu P_\mu=0\Rightarrow m=0,}
+\tag{6.6}
+\]
+
+而：
+
+\[
+\boxed{P^\mu P_\mu>0\Rightarrow m>0.}
+\tag{6.7}
+\]
+
+這表示質量不需要在 Mother–COPY CORE 中另外增加「第五本帳」。
+
+它可以由既有：
+
+\[
+E,\mathbf P
+\]
+
+做 invariant readout。
+
+但這個公式只解決：
+
+\[
+\boxed{\text{mass classification / readout}}
+\]
+
+而沒有解決：
+
+\[
+\boxed{\text{absolute mass generation}.}
+\]
+
+例如目前仍未由 Mother–COPY 第一性導出：
+
+\[
+m_e=0.51099895\ldots\ {\rm MeV}/c^2.
+\]
+
+## 6.3 電荷 Readout
+
+電荷：
+
+\[
+Q
+\]
+
+已經包含在：
+
+\[
+K=(E,\mathbf P,\mathbf J,Q)
+\]
+
+中。
+
+因此不另外建立第五本「電荷帳」。
+
+目前只保留一個條件式 charge-conjugation 候選：
+
+\[
+\boxed{\mathscr C_Q:(m,Q)\mapsto(m,-Q).}
+\tag{6.8}
+\]
+
+若此操作存在，它應至少滿足：
+
+\[
+\boxed{\mathscr C_Q^2=I,}
+\tag{6.9}
+\]
+
+以及：
+
+\[
+\boxed{Q[\mathscr C_QT]=-Q[T].}
+\tag{6.10}
+\]
+
+若同時保持四動量不變量：
+
+\[
+\boxed{P^2[\mathscr C_QT]=P^2[T],}
+\tag{6.11}
+\]
+
+則共軛態具有相同 invariant mass。
+
+但是：
+
+\[
+\boxed{\mathscr C_Q=\text{TRY}.}
+\tag{6.12}
+\]
+
+它目前不是 M1–M4 的推導結果。
+
+基本電荷量子：
+
+\[
+|Q|=e
+\]
+
+也尚未由此導出。
+
+## 6.4 黑白兩儀與電荷共軛不是同一操作
+
+若未來定義黑白兩儀交換：
+
+\[
+\boxed{\mathscr Y:(W,B)\mapsto(B,W),}
+\tag{6.13}
+\]
+
+它描述的是同一太極狀態中黑白兩側的交換／內外關係。
+
+條件式電荷共軛則候選為：
+
+\[
+\boxed{\mathscr C_Q:(Q_W,Q_B)\mapsto(-Q_W,-Q_B).}
+\tag{6.14}
+\]
+
+也就是兩側的 charge orientation 同時反轉，而不是交換：
+
+\[
+W\leftrightarrow B.
+\]
+
+因此：
+
+\[
+\boxed{\mathscr Y\neq\mathscr C_Q.}
+\tag{6.15}
+\]
+
+同樣，空間旋轉／spin monodromy 也不能在尚未證明時與這兩個操作合併。
+
+所以 v1 明確分開：
+
+\[
+\boxed{\text{Two-Yi exchange}}
+\]
+
+\[
+\boxed{\text{charge conjugation}}
+\]
+
+\[
+\boxed{\text{spatial rotation / spin monodromy}.}
+\tag{6.16}
+\]
+
+## 6.5 合法性與成熟性
+
+四守恆只定義一個狀態是否具有合法帳目。
+
+但合法狀態未必能形成穩定的物理實體。
+
+因此定義成熟性接口：
+
+\[
+\boxed{\mathcal S(T)=\begin{cases}1,&\text{settled / mature},\\[1mm]0,&\text{transit / non-mature}.\end{cases}}
+\tag{6.17}
+\]
+
+四守恆要求：
+
+\[
+\boxed{\Phi(T)=0}
+\]
+
+在 settled 與 transit 階段都必須成立。
+

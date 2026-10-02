@@ -1,0 +1,428 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.4.2
+2 info using node@v26.8.1
+3 silly config load:file:C:\Users\User\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\TQTG_notes\tmp\pdfs\.npmrc
+5 silly config load:file:C:\Users\User\.npmrc
+6 silly config load:file:C:\TQTG_notes\tmp\pdfs\etc\npmrc
+7 verbose title npm install marked katex puppeteer-core pdfjs-dist @napi-rs/canvas
+8 verbose argv "install" "--prefix" "C:/TQTG_notes/tmp/pdfs" "--cache" "C:/TQTG_notes/tmp/pdfs/npm-cache" "--fetch-retries" "0" "--fetch-timeout" "20000" "marked" "katex" "puppeteer-core" "pdfjs-dist" "@napi-rs/canvas"
+9 verbose logfile logs-max:10 dir:C:\TQTG_notes\tmp\pdfs\npm-cache\_logs\2026-10-02T02_52_56_508Z-
+10 verbose logfile C:\TQTG_notes\tmp\pdfs\npm-cache\_logs\2026-10-02T02_52_56_508Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4395630592 maxSize:1098907648 maxEntrySize:549453824
+13 silly idealTree buildDeps
+14 silly fetch manifest marked@*
+15 silly packumentCache full:https://registry.npmjs.org/marked cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/npm 151ms
+17 http fetch GET 200 https://registry.npmjs.org/marked 148ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/marked set size:undefined disposed:false
+19 silly fetch manifest katex@*
+20 silly packumentCache full:https://registry.npmjs.org/katex cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/katex 76ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/katex set size:undefined disposed:false
+23 silly fetch manifest puppeteer-core@*
+24 silly packumentCache full:https://registry.npmjs.org/puppeteer-core cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/puppeteer-core 89ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/puppeteer-core set size:undefined disposed:false
+27 silly fetch manifest pdfjs-dist@*
+28 silly packumentCache full:https://registry.npmjs.org/pdfjs-dist cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/pdfjs-dist 83ms (cache miss)
+30 silly packumentCache full:https://registry.npmjs.org/pdfjs-dist set size:undefined disposed:false
+31 silly fetch manifest @napi-rs/canvas@*
+32 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas 166ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas set size:undefined disposed:false
+35 silly placeDep ROOT @napi-rs/canvas@1.0.10 OK for:  want: *
+36 silly placeDep ROOT katex@0.19.0 OK for:  want: *
+37 silly placeDep ROOT marked@18.0.14 OK for:  want: *
+38 silly placeDep ROOT pdfjs-dist@6.3.289 OK for:  want: *
+39 silly placeDep ROOT puppeteer-core@25.12.0 OK for:  want: *
+40 silly fetch manifest @napi-rs/canvas-darwin-x64@1.0.10
+41 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-darwin-x64 cache-miss
+42 silly fetch manifest @napi-rs/canvas-darwin-arm64@1.0.10
+43 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-darwin-arm64 cache-miss
+44 silly fetch manifest @napi-rs/canvas-android-arm64@1.0.10
+45 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-android-arm64 cache-miss
+46 silly fetch manifest @napi-rs/canvas-linux-x64-gnu@1.0.10
+47 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-x64-gnu cache-miss
+48 silly fetch manifest @napi-rs/canvas-linux-x64-musl@1.0.10
+49 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-x64-musl cache-miss
+50 silly fetch manifest @napi-rs/canvas-win32-x64-msvc@1.0.10
+51 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-win32-x64-msvc cache-miss
+52 silly fetch manifest @napi-rs/canvas-linux-arm64-gnu@1.0.10
+53 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-arm64-gnu cache-miss
+54 silly fetch manifest @napi-rs/canvas-linux-arm64-musl@1.0.10
+55 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-arm64-musl cache-miss
+56 silly fetch manifest @napi-rs/canvas-win32-arm64-msvc@1.0.10
+57 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-win32-arm64-msvc cache-miss
+58 silly fetch manifest @napi-rs/canvas-linux-riscv64-gnu@1.0.10
+59 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-riscv64-gnu cache-miss
+60 silly fetch manifest @napi-rs/canvas-linux-arm-gnueabihf@1.0.10
+61 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-arm-gnueabihf cache-miss
+62 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas-darwin-x64 56ms (cache miss)
+63 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-darwin-x64 set size:undefined disposed:false
+64 silly fetch manifest commander@^15.0.0
+65 silly packumentCache full:https://registry.npmjs.org/commander cache-miss
+66 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas-darwin-arm64 66ms (cache miss)
+67 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-darwin-arm64 set size:undefined disposed:false
+68 silly fetch manifest ws@^8.21.3
+69 silly packumentCache full:https://registry.npmjs.org/ws cache-miss
+70 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas-win32-arm64-msvc 79ms (cache miss)
+71 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-win32-arm64-msvc set size:undefined disposed:false
+72 silly fetch manifest chromium-bidi@17.0.2
+73 silly packumentCache full:https://registry.npmjs.org/chromium-bidi cache-miss
+74 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas-linux-arm64-gnu 88ms (cache miss)
+75 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-arm64-gnu set size:undefined disposed:false
+76 silly fetch manifest devtools-protocol@0.0.1687809
+77 silly packumentCache full:https://registry.npmjs.org/devtools-protocol cache-miss
+78 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas-linux-riscv64-gnu 101ms (cache miss)
+79 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-riscv64-gnu set size:undefined disposed:false
+80 silly fetch manifest @puppeteer/browsers@3.2.3
+81 silly packumentCache full:https://registry.npmjs.org/@puppeteer%2fbrowsers cache-miss
+82 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas-linux-x64-gnu 109ms (cache miss)
+83 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-x64-gnu set size:undefined disposed:false
+84 silly fetch manifest typed-query-selector@^2.12.2
+85 silly packumentCache full:https://registry.npmjs.org/typed-query-selector cache-miss
+86 http fetch GET 200 https://registry.npmjs.org/commander 56ms (cache miss)
+87 silly packumentCache full:https://registry.npmjs.org/commander set size:undefined disposed:false
+88 silly fetch manifest webdriver-bidi-protocol@0.4.3
+89 silly packumentCache full:https://registry.npmjs.org/webdriver-bidi-protocol cache-miss
+90 http fetch GET 200 https://registry.npmjs.org/ws 55ms (cache miss)
+91 silly packumentCache full:https://registry.npmjs.org/ws set size:undefined disposed:false
+92 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas-linux-arm64-musl 136ms (cache miss)
+93 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-arm64-musl set size:undefined disposed:false
+94 http fetch GET 200 https://registry.npmjs.org/webdriver-bidi-protocol 37ms (cache miss)
+95 silly packumentCache full:https://registry.npmjs.org/webdriver-bidi-protocol set size:undefined disposed:false
+96 http fetch GET 200 https://registry.npmjs.org/typed-query-selector 45ms (cache miss)
+97 silly packumentCache full:https://registry.npmjs.org/typed-query-selector set size:undefined disposed:false
+98 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas-android-arm64 179ms (cache miss)
+99 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-android-arm64 set size:undefined disposed:false
+100 http fetch GET 200 https://registry.npmjs.org/@puppeteer%2fbrowsers 110ms (cache miss)
+101 silly packumentCache full:https://registry.npmjs.org/@puppeteer%2fbrowsers set size:undefined disposed:false
+102 http fetch GET 200 https://registry.npmjs.org/devtools-protocol 126ms (cache miss)
+103 silly packumentCache full:https://registry.npmjs.org/devtools-protocol set size:undefined disposed:false
+104 http fetch GET 200 https://registry.npmjs.org/chromium-bidi 149ms (cache miss)
+105 silly packumentCache full:https://registry.npmjs.org/chromium-bidi set size:undefined disposed:false
+106 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas-linux-x64-musl 242ms (cache miss)
+107 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-x64-musl set size:undefined disposed:false
+108 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas-win32-x64-msvc 252ms (cache miss)
+109 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-win32-x64-msvc set size:undefined disposed:false
+110 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2fcanvas-linux-arm-gnueabihf 464ms (cache miss)
+111 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2fcanvas-linux-arm-gnueabihf set size:undefined disposed:false
+112 silly placeDep ROOT @napi-rs/canvas-android-arm64@1.0.10 OK for: @napi-rs/canvas@1.0.10 want: 1.0.10
+113 silly placeDep ROOT @napi-rs/canvas-darwin-arm64@1.0.10 OK for: @napi-rs/canvas@1.0.10 want: 1.0.10
+114 silly placeDep ROOT @napi-rs/canvas-darwin-x64@1.0.10 OK for: @napi-rs/canvas@1.0.10 want: 1.0.10
+115 silly placeDep ROOT @napi-rs/canvas-linux-arm-gnueabihf@1.0.10 OK for: @napi-rs/canvas@1.0.10 want: 1.0.10
+116 silly placeDep ROOT @napi-rs/canvas-linux-arm64-gnu@1.0.10 OK for: @napi-rs/canvas@1.0.10 want: 1.0.10
+117 silly placeDep ROOT @napi-rs/canvas-linux-arm64-musl@1.0.10 OK for: @napi-rs/canvas@1.0.10 want: 1.0.10
+118 silly placeDep ROOT @napi-rs/canvas-linux-riscv64-gnu@1.0.10 OK for: @napi-rs/canvas@1.0.10 want: 1.0.10
+119 silly placeDep ROOT @napi-rs/canvas-linux-x64-gnu@1.0.10 OK for: @napi-rs/canvas@1.0.10 want: 1.0.10
+120 silly placeDep ROOT @napi-rs/canvas-linux-x64-musl@1.0.10 OK for: @napi-rs/canvas@1.0.10 want: 1.0.10
+121 silly placeDep ROOT @napi-rs/canvas-win32-arm64-msvc@1.0.10 OK for: @napi-rs/canvas@1.0.10 want: 1.0.10
+122 silly placeDep ROOT @napi-rs/canvas-win32-x64-msvc@1.0.10 OK for: @napi-rs/canvas@1.0.10 want: 1.0.10
+123 silly placeDep ROOT commander@15.0.0 OK for: katex@0.19.0 want: ^15.0.0
+124 silly fetch manifest bufferutil@^4.0.1
+125 silly packumentCache full:https://registry.npmjs.org/bufferutil cache-miss
+126 http fetch GET 200 https://registry.npmjs.org/bufferutil 22ms (cache miss)
+127 silly packumentCache full:https://registry.npmjs.org/bufferutil set size:undefined disposed:false
+128 silly fetch manifest utf-8-validate@>=5.0.2
+129 silly packumentCache full:https://registry.npmjs.org/utf-8-validate cache-miss
+130 http fetch GET 200 https://registry.npmjs.org/utf-8-validate 28ms (cache miss)
+131 silly packumentCache full:https://registry.npmjs.org/utf-8-validate set size:undefined disposed:false
+132 silly fetch manifest proxy-agent@>=8.0.1
+133 silly packumentCache full:https://registry.npmjs.org/proxy-agent cache-miss
+134 http fetch GET 200 https://registry.npmjs.org/proxy-agent 30ms (cache miss)
+135 silly packumentCache full:https://registry.npmjs.org/proxy-agent set size:undefined disposed:false
+136 silly fetch manifest yauzl@^2.10.0 || ^3.4.0
+137 silly packumentCache full:https://registry.npmjs.org/yauzl cache-miss
+138 http fetch GET 200 https://registry.npmjs.org/yauzl 26ms (cache miss)
+139 silly packumentCache full:https://registry.npmjs.org/yauzl set size:undefined disposed:false
+140 silly placeDep ROOT @puppeteer/browsers@3.2.3 OK for: puppeteer-core@25.12.0 want: 3.2.3
+141 silly placeDep ROOT chromium-bidi@17.0.2 OK for: puppeteer-core@25.12.0 want: 17.0.2
+142 silly placeDep ROOT devtools-protocol@0.0.1687809 OK for: chromium-bidi@17.0.2 want: *
+143 silly placeDep ROOT typed-query-selector@2.12.3 OK for: puppeteer-core@25.12.0 want: ^2.12.2
+144 silly placeDep ROOT webdriver-bidi-protocol@0.4.3 OK for: puppeteer-core@25.12.0 want: 0.4.3
+145 silly placeDep ROOT ws@8.22.0 OK for: puppeteer-core@25.12.0 want: ^8.21.3
+146 silly fetch manifest yargs@^18.0.0
+147 silly packumentCache full:https://registry.npmjs.org/yargs cache-miss
+148 silly fetch manifest modern-tar@^0.8.4
+149 silly packumentCache full:https://registry.npmjs.org/modern-tar cache-miss
+150 silly fetch manifest zod@^3.24.1
+151 silly packumentCache full:https://registry.npmjs.org/zod cache-miss
+152 silly fetch manifest mitt@^3.0.1
+153 silly packumentCache full:https://registry.npmjs.org/mitt cache-miss
+154 http fetch GET 200 https://registry.npmjs.org/modern-tar 29ms (cache miss)
+155 silly packumentCache full:https://registry.npmjs.org/modern-tar set size:undefined disposed:false
+156 http fetch GET 200 https://registry.npmjs.org/mitt 33ms (cache miss)
+157 silly packumentCache full:https://registry.npmjs.org/mitt set size:undefined disposed:false
+158 http fetch GET 200 https://registry.npmjs.org/yargs 58ms (cache miss)
+159 silly packumentCache full:https://registry.npmjs.org/yargs set size:undefined disposed:false
+160 http fetch GET 200 https://registry.npmjs.org/zod 136ms (cache miss)
+161 silly packumentCache full:https://registry.npmjs.org/zod set size:undefined disposed:false
+162 silly placeDep ROOT modern-tar@0.8.5 OK for: @puppeteer/browsers@3.2.3 want: ^0.8.4
+163 silly placeDep ROOT yargs@18.2.0 OK for: @puppeteer/browsers@3.2.3 want: ^18.0.0
+164 silly fetch manifest y18n@^5.0.5
+165 silly packumentCache full:https://registry.npmjs.org/y18n cache-miss
+166 silly fetch manifest cliui@^9.0.1
+167 silly packumentCache full:https://registry.npmjs.org/cliui cache-miss
+168 silly fetch manifest escalade@^3.1.1
+169 silly packumentCache full:https://registry.npmjs.org/escalade cache-miss
+170 silly fetch manifest string-width@^8.2.1
+171 silly packumentCache full:https://registry.npmjs.org/string-width cache-miss
+172 silly fetch manifest yargs-parser@^22.0.0
+173 silly packumentCache full:https://registry.npmjs.org/yargs-parser cache-miss
+174 silly fetch manifest get-caller-file@^2.0.5
+175 silly packumentCache full:https://registry.npmjs.org/get-caller-file cache-miss
+176 http fetch GET 200 https://registry.npmjs.org/escalade 26ms (cache miss)
+177 silly packumentCache full:https://registry.npmjs.org/escalade set size:undefined disposed:false
+178 http fetch GET 200 https://registry.npmjs.org/cliui 27ms (cache miss)
+179 silly packumentCache full:https://registry.npmjs.org/cliui set size:undefined disposed:false
+180 http fetch GET 200 https://registry.npmjs.org/y18n 36ms (cache miss)
+181 silly packumentCache full:https://registry.npmjs.org/y18n set size:undefined disposed:false
+182 http fetch GET 200 https://registry.npmjs.org/string-width 40ms (cache miss)
+183 silly packumentCache full:https://registry.npmjs.org/string-width set size:undefined disposed:false
+184 http fetch GET 200 https://registry.npmjs.org/get-caller-file 41ms (cache miss)
+185 silly packumentCache full:https://registry.npmjs.org/get-caller-file set size:undefined disposed:false
+186 http fetch GET 200 https://registry.npmjs.org/yargs-parser 45ms (cache miss)
+187 silly packumentCache full:https://registry.npmjs.org/yargs-parser set size:undefined disposed:false
+188 silly placeDep ROOT mitt@3.0.1 OK for: chromium-bidi@17.0.2 want: ^3.0.1
+189 silly placeDep ROOT zod@3.25.76 OK for: chromium-bidi@17.0.2 want: ^3.24.1
+190 silly placeDep ROOT cliui@9.0.1 OK for: yargs@18.2.0 want: ^9.0.1
+191 silly placeDep ROOT escalade@3.2.0 OK for: yargs@18.2.0 want: ^3.1.1
+192 silly placeDep ROOT get-caller-file@2.0.5 OK for: yargs@18.2.0 want: ^2.0.5
+193 silly placeDep ROOT string-width@8.3.0 OK for: yargs@18.2.0 want: ^8.2.1
+194 silly placeDep ROOT y18n@5.0.8 OK for: yargs@18.2.0 want: ^5.0.5
+195 silly placeDep ROOT yargs-parser@22.0.0 OK for: yargs@18.2.0 want: ^22.0.0
+196 silly fetch manifest string-width@^7.2.0
+197 silly packumentCache full:https://registry.npmjs.org/string-width cache-miss
+198 silly fetch manifest strip-ansi@^7.1.0
+199 silly packumentCache full:https://registry.npmjs.org/strip-ansi cache-miss
+200 silly fetch manifest wrap-ansi@^9.0.0
+201 silly packumentCache full:https://registry.npmjs.org/wrap-ansi cache-miss
+202 silly fetch manifest strip-ansi@^7.1.2
+203 silly packumentCache full:https://registry.npmjs.org/strip-ansi cache-miss
+204 silly fetch manifest get-east-asian-width@^1.5.0
+205 silly packumentCache full:https://registry.npmjs.org/get-east-asian-width cache-miss
+206 http cache https://registry.npmjs.org/string-width 13ms (cache hit)
+207 silly packumentCache full:https://registry.npmjs.org/string-width set size:74702 disposed:false
+208 http fetch GET 200 https://registry.npmjs.org/get-east-asian-width 26ms (cache miss)
+209 silly packumentCache full:https://registry.npmjs.org/get-east-asian-width set size:undefined disposed:false
+210 http fetch GET 200 https://registry.npmjs.org/strip-ansi 35ms (cache miss)
+211 silly packumentCache full:https://registry.npmjs.org/strip-ansi set size:undefined disposed:false
+212 http fetch GET 200 https://registry.npmjs.org/strip-ansi 35ms (cache miss)
+213 silly packumentCache full:https://registry.npmjs.org/strip-ansi set size:undefined disposed:false
+214 http fetch GET 200 https://registry.npmjs.org/wrap-ansi 41ms (cache miss)
+215 silly packumentCache full:https://registry.npmjs.org/wrap-ansi set size:undefined disposed:false
+216 silly placeDep node_modules/cliui string-width@7.2.0 OK for: cliui@9.0.1 want: ^7.2.0
+217 silly placeDep ROOT strip-ansi@7.2.0 OK for: cliui@9.0.1 want: ^7.1.0
+218 silly placeDep ROOT wrap-ansi@9.0.2 OK for: cliui@9.0.1 want: ^9.0.0
+219 silly fetch manifest emoji-regex@^10.3.0
+220 silly packumentCache full:https://registry.npmjs.org/emoji-regex cache-miss
+221 silly fetch manifest get-east-asian-width@^1.0.0
+222 silly packumentCache full:https://registry.npmjs.org/get-east-asian-width cache-miss
+223 silly fetch manifest ansi-regex@^6.2.2
+224 silly packumentCache full:https://registry.npmjs.org/ansi-regex cache-miss
+225 silly fetch manifest ansi-styles@^6.2.1
+226 silly packumentCache full:https://registry.npmjs.org/ansi-styles cache-miss
+227 silly fetch manifest string-width@^7.0.0
+228 silly packumentCache full:https://registry.npmjs.org/string-width cache-hit
+229 http cache https://registry.npmjs.org/get-east-asian-width 6ms (cache hit)
+230 silly packumentCache full:https://registry.npmjs.org/get-east-asian-width set size:22908 disposed:false
+231 http fetch GET 200 https://registry.npmjs.org/ansi-regex 38ms (cache miss)
+232 silly packumentCache full:https://registry.npmjs.org/ansi-regex set size:undefined disposed:false
+233 http fetch GET 200 https://registry.npmjs.org/emoji-regex 39ms (cache miss)
+234 silly packumentCache full:https://registry.npmjs.org/emoji-regex set size:undefined disposed:false
+235 http fetch GET 200 https://registry.npmjs.org/ansi-styles 44ms (cache miss)
+236 silly packumentCache full:https://registry.npmjs.org/ansi-styles set size:undefined disposed:false
+237 silly placeDep ROOT get-east-asian-width@1.7.0 OK for: string-width@8.3.0 want: ^1.5.0
+238 silly placeDep ROOT ansi-regex@6.4.0 OK for: strip-ansi@7.2.0 want: ^6.2.2
+239 silly placeDep ROOT ansi-styles@6.2.3 OK for: wrap-ansi@9.0.2 want: ^6.2.1
+240 silly placeDep node_modules/wrap-ansi string-width@7.2.0 OK for: wrap-ansi@9.0.2 want: ^7.0.0
+241 silly placeDep ROOT emoji-regex@10.6.0 OK for: string-width@7.2.0 want: ^10.3.0
+242 silly reify moves {}
+243 verbose reify failed optional dependency C:\TQTG_notes\tmp\pdfs\node_modules\@napi-rs\canvas-win32-arm64-msvc
+244 silly reify mark deleted [
+244 silly reify   'C:\\TQTG_notes\\tmp\\pdfs\\node_modules\\@napi-rs\\canvas-win32-arm64-msvc'
+244 silly reify ]
+245 verbose reify failed optional dependency C:\TQTG_notes\tmp\pdfs\node_modules\@napi-rs\canvas-linux-x64-musl
+246 silly reify mark deleted [
+246 silly reify   'C:\\TQTG_notes\\tmp\\pdfs\\node_modules\\@napi-rs\\canvas-linux-x64-musl'
+246 silly reify ]
+247 verbose reify failed optional dependency C:\TQTG_notes\tmp\pdfs\node_modules\@napi-rs\canvas-linux-x64-gnu
+248 silly reify mark deleted [
+248 silly reify   'C:\\TQTG_notes\\tmp\\pdfs\\node_modules\\@napi-rs\\canvas-linux-x64-gnu'
+248 silly reify ]
+249 verbose reify failed optional dependency C:\TQTG_notes\tmp\pdfs\node_modules\@napi-rs\canvas-linux-riscv64-gnu
+250 silly reify mark deleted [
+250 silly reify   'C:\\TQTG_notes\\tmp\\pdfs\\node_modules\\@napi-rs\\canvas-linux-riscv64-gnu'
+250 silly reify ]
+251 verbose reify failed optional dependency C:\TQTG_notes\tmp\pdfs\node_modules\@napi-rs\canvas-linux-arm64-musl
+252 silly reify mark deleted [
+252 silly reify   'C:\\TQTG_notes\\tmp\\pdfs\\node_modules\\@napi-rs\\canvas-linux-arm64-musl'
+252 silly reify ]
+253 verbose reify failed optional dependency C:\TQTG_notes\tmp\pdfs\node_modules\@napi-rs\canvas-linux-arm64-gnu
+254 silly reify mark deleted [
+254 silly reify   'C:\\TQTG_notes\\tmp\\pdfs\\node_modules\\@napi-rs\\canvas-linux-arm64-gnu'
+254 silly reify ]
+255 verbose reify failed optional dependency C:\TQTG_notes\tmp\pdfs\node_modules\@napi-rs\canvas-linux-arm-gnueabihf
+256 silly reify mark deleted [
+256 silly reify   'C:\\TQTG_notes\\tmp\\pdfs\\node_modules\\@napi-rs\\canvas-linux-arm-gnueabihf'
+256 silly reify ]
+257 verbose reify failed optional dependency C:\TQTG_notes\tmp\pdfs\node_modules\@napi-rs\canvas-darwin-x64
+258 silly reify mark deleted [
+258 silly reify   'C:\\TQTG_notes\\tmp\\pdfs\\node_modules\\@napi-rs\\canvas-darwin-x64'
+258 silly reify ]
+259 verbose reify failed optional dependency C:\TQTG_notes\tmp\pdfs\node_modules\@napi-rs\canvas-darwin-arm64
+260 silly reify mark deleted [
+260 silly reify   'C:\\TQTG_notes\\tmp\\pdfs\\node_modules\\@napi-rs\\canvas-darwin-arm64'
+260 silly reify ]
+261 verbose reify failed optional dependency C:\TQTG_notes\tmp\pdfs\node_modules\@napi-rs\canvas-android-arm64
+262 silly reify mark deleted [
+262 silly reify   'C:\\TQTG_notes\\tmp\\pdfs\\node_modules\\@napi-rs\\canvas-android-arm64'
+262 silly reify ]
+263 http cache emoji-regex@https://registry.npmjs.org/emoji-regex/-/emoji-regex-10.6.0.tgz 0ms (cache hit)
+264 http cache ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-6.2.3.tgz 0ms (cache hit)
+265 http cache get-east-asian-width@https://registry.npmjs.org/get-east-asian-width/-/get-east-asian-width-1.7.0.tgz 0ms (cache hit)
+266 http cache ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-6.4.0.tgz 0ms (cache hit)
+267 http cache wrap-ansi@https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-9.0.2.tgz 0ms (cache hit)
+268 http cache strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-7.2.0.tgz 0ms (cache hit)
+269 http cache string-width@https://registry.npmjs.org/string-width/-/string-width-8.3.0.tgz 0ms (cache hit)
+270 http cache yargs-parser@https://registry.npmjs.org/yargs-parser/-/yargs-parser-22.0.0.tgz 0ms (cache hit)
+271 http cache y18n@https://registry.npmjs.org/y18n/-/y18n-5.0.8.tgz 0ms (cache hit)
+272 http cache escalade@https://registry.npmjs.org/escalade/-/escalade-3.2.0.tgz 0ms (cache hit)
+273 http cache cliui@https://registry.npmjs.org/cliui/-/cliui-9.0.1.tgz 0ms (cache hit)
+274 http cache modern-tar@https://registry.npmjs.org/modern-tar/-/modern-tar-0.8.5.tgz 0ms (cache hit)
+275 http cache get-caller-file@https://registry.npmjs.org/get-caller-file/-/get-caller-file-2.0.5.tgz 0ms (cache hit)
+276 http cache zod@https://registry.npmjs.org/zod/-/zod-3.25.76.tgz 0ms (cache hit)
+277 http cache yargs@https://registry.npmjs.org/yargs/-/yargs-18.2.0.tgz 0ms (cache hit)
+278 http cache mitt@https://registry.npmjs.org/mitt/-/mitt-3.0.1.tgz 0ms (cache hit)
+279 http cache ws@https://registry.npmjs.org/ws/-/ws-8.22.0.tgz 0ms (cache hit)
+280 http cache devtools-protocol@https://registry.npmjs.org/devtools-protocol/-/devtools-protocol-0.0.1687809.tgz 0ms (cache hit)
+281 http cache typed-query-selector@https://registry.npmjs.org/typed-query-selector/-/typed-query-selector-2.12.3.tgz 0ms (cache hit)
+282 http cache webdriver-bidi-protocol@https://registry.npmjs.org/webdriver-bidi-protocol/-/webdriver-bidi-protocol-0.4.3.tgz 0ms (cache hit)
+283 http cache @puppeteer/browsers@https://registry.npmjs.org/@puppeteer/browsers/-/browsers-3.2.3.tgz 0ms (cache hit)
+284 http cache @napi-rs/canvas-win32-x64-msvc@https://registry.npmjs.org/@napi-rs/canvas-win32-x64-msvc/-/canvas-win32-x64-msvc-1.0.10.tgz 0ms (cache hit)
+285 http cache chromium-bidi@https://registry.npmjs.org/chromium-bidi/-/chromium-bidi-17.0.2.tgz 0ms (cache hit)
+286 http cache commander@https://registry.npmjs.org/commander/-/commander-15.0.0.tgz 0ms (cache hit)
+287 http cache pdfjs-dist@https://registry.npmjs.org/pdfjs-dist/-/pdfjs-dist-6.3.289.tgz 0ms (cache hit)
+288 http cache puppeteer-core@https://registry.npmjs.org/puppeteer-core/-/puppeteer-core-25.12.0.tgz 0ms (cache hit)
+289 http cache string-width@https://registry.npmjs.org/string-width/-/string-width-7.2.0.tgz 0ms (cache hit)
+290 http cache marked@https://registry.npmjs.org/marked/-/marked-18.0.14.tgz 0ms (cache hit)
+291 http cache katex@https://registry.npmjs.org/katex/-/katex-0.19.0.tgz 0ms (cache hit)
+292 silly tarball no local data for emoji-regex@https://registry.npmjs.org/emoji-regex/-/emoji-regex-10.6.0.tgz. Extracting by manifest.
+293 silly tarball no local data for ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-6.2.3.tgz. Extracting by manifest.
+294 silly tarball no local data for get-east-asian-width@https://registry.npmjs.org/get-east-asian-width/-/get-east-asian-width-1.7.0.tgz. Extracting by manifest.
+295 silly tarball no local data for ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-6.4.0.tgz. Extracting by manifest.
+296 http cache @napi-rs/canvas@https://registry.npmjs.org/@napi-rs/canvas/-/canvas-1.0.10.tgz 0ms (cache hit)
+297 silly tarball no local data for wrap-ansi@https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-9.0.2.tgz. Extracting by manifest.
+298 silly tarball no local data for strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-7.2.0.tgz. Extracting by manifest.
+299 silly tarball no local data for string-width@https://registry.npmjs.org/string-width/-/string-width-8.3.0.tgz. Extracting by manifest.
+300 silly tarball no local data for yargs-parser@https://registry.npmjs.org/yargs-parser/-/yargs-parser-22.0.0.tgz. Extracting by manifest.
+301 http cache string-width@https://registry.npmjs.org/string-width/-/string-width-7.2.0.tgz 0ms (cache hit)
+302 silly tarball no local data for y18n@https://registry.npmjs.org/y18n/-/y18n-5.0.8.tgz. Extracting by manifest.
+303 silly tarball no local data for escalade@https://registry.npmjs.org/escalade/-/escalade-3.2.0.tgz. Extracting by manifest.
+304 silly tarball no local data for cliui@https://registry.npmjs.org/cliui/-/cliui-9.0.1.tgz. Extracting by manifest.
+305 silly tarball no local data for modern-tar@https://registry.npmjs.org/modern-tar/-/modern-tar-0.8.5.tgz. Extracting by manifest.
+306 silly tarball no local data for get-caller-file@https://registry.npmjs.org/get-caller-file/-/get-caller-file-2.0.5.tgz. Extracting by manifest.
+307 silly tarball no local data for zod@https://registry.npmjs.org/zod/-/zod-3.25.76.tgz. Extracting by manifest.
+308 silly tarball no local data for yargs@https://registry.npmjs.org/yargs/-/yargs-18.2.0.tgz. Extracting by manifest.
+309 silly tarball no local data for mitt@https://registry.npmjs.org/mitt/-/mitt-3.0.1.tgz. Extracting by manifest.
+310 silly tarball no local data for ws@https://registry.npmjs.org/ws/-/ws-8.22.0.tgz. Extracting by manifest.
+311 silly tarball no local data for devtools-protocol@https://registry.npmjs.org/devtools-protocol/-/devtools-protocol-0.0.1687809.tgz. Extracting by manifest.
+312 silly tarball no local data for typed-query-selector@https://registry.npmjs.org/typed-query-selector/-/typed-query-selector-2.12.3.tgz. Extracting by manifest.
+313 silly tarball no local data for webdriver-bidi-protocol@https://registry.npmjs.org/webdriver-bidi-protocol/-/webdriver-bidi-protocol-0.4.3.tgz. Extracting by manifest.
+314 silly tarball no local data for @puppeteer/browsers@https://registry.npmjs.org/@puppeteer/browsers/-/browsers-3.2.3.tgz. Extracting by manifest.
+315 silly tarball no local data for @napi-rs/canvas-win32-x64-msvc@https://registry.npmjs.org/@napi-rs/canvas-win32-x64-msvc/-/canvas-win32-x64-msvc-1.0.10.tgz. Extracting by manifest.
+316 silly tarball no local data for chromium-bidi@https://registry.npmjs.org/chromium-bidi/-/chromium-bidi-17.0.2.tgz. Extracting by manifest.
+317 silly tarball no local data for commander@https://registry.npmjs.org/commander/-/commander-15.0.0.tgz. Extracting by manifest.
+318 silly tarball no local data for pdfjs-dist@https://registry.npmjs.org/pdfjs-dist/-/pdfjs-dist-6.3.289.tgz. Extracting by manifest.
+319 silly tarball no local data for puppeteer-core@https://registry.npmjs.org/puppeteer-core/-/puppeteer-core-25.12.0.tgz. Extracting by manifest.
+320 silly tarball no local data for string-width@https://registry.npmjs.org/string-width/-/string-width-7.2.0.tgz. Extracting by manifest.
+321 silly tarball no local data for marked@https://registry.npmjs.org/marked/-/marked-18.0.14.tgz. Extracting by manifest.
+322 silly tarball no local data for katex@https://registry.npmjs.org/katex/-/katex-0.19.0.tgz. Extracting by manifest.
+323 silly tarball no local data for @napi-rs/canvas@https://registry.npmjs.org/@napi-rs/canvas/-/canvas-1.0.10.tgz. Extracting by manifest.
+324 silly tarball no local data for string-width@https://registry.npmjs.org/string-width/-/string-width-7.2.0.tgz. Extracting by manifest.
+325 http fetch GET 200 https://registry.npmjs.org/ansi-regex/-/ansi-regex-6.4.0.tgz 131ms (cache miss)
+326 http fetch GET 200 https://registry.npmjs.org/strip-ansi/-/strip-ansi-7.2.0.tgz 138ms (cache miss)
+327 http fetch GET 200 https://registry.npmjs.org/string-width/-/string-width-8.3.0.tgz 146ms (cache miss)
+328 http fetch GET 200 https://registry.npmjs.org/ansi-styles/-/ansi-styles-6.2.3.tgz 147ms (cache miss)
+329 http fetch GET 200 https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-9.0.2.tgz 150ms (cache miss)
+330 http fetch GET 200 https://registry.npmjs.org/escalade/-/escalade-3.2.0.tgz 150ms (cache miss)
+331 http fetch GET 200 https://registry.npmjs.org/emoji-regex/-/emoji-regex-10.6.0.tgz 160ms (cache miss)
+332 http fetch GET 200 https://registry.npmjs.org/mitt/-/mitt-3.0.1.tgz 157ms (cache miss)
+333 http fetch GET 200 https://registry.npmjs.org/typed-query-selector/-/typed-query-selector-2.12.3.tgz 163ms (cache miss)
+334 http fetch GET 200 https://registry.npmjs.org/string-width/-/string-width-7.2.0.tgz 160ms (cache miss)
+335 http fetch GET 200 https://registry.npmjs.org/get-caller-file/-/get-caller-file-2.0.5.tgz 167ms (cache miss)
+336 http fetch GET 200 https://registry.npmjs.org/get-east-asian-width/-/get-east-asian-width-1.7.0.tgz 172ms (cache miss)
+337 http fetch GET 200 https://registry.npmjs.org/y18n/-/y18n-5.0.8.tgz 179ms (cache miss)
+338 http fetch GET 200 https://registry.npmjs.org/yargs-parser/-/yargs-parser-22.0.0.tgz 188ms (cache miss)
+339 http fetch GET 200 https://registry.npmjs.org/cliui/-/cliui-9.0.1.tgz 189ms (cache miss)
+340 http fetch GET 200 https://registry.npmjs.org/modern-tar/-/modern-tar-0.8.5.tgz 284ms (cache miss)
+341 http fetch GET 200 https://registry.npmjs.org/@napi-rs/canvas/-/canvas-1.0.10.tgz 280ms (cache miss)
+342 http fetch GET 200 https://registry.npmjs.org/ws/-/ws-8.22.0.tgz 295ms (cache miss)
+343 http fetch GET 200 https://registry.npmjs.org/string-width/-/string-width-7.2.0.tgz 301ms (cache miss)
+344 http fetch GET 200 https://registry.npmjs.org/marked/-/marked-18.0.14.tgz 332ms (cache miss)
+345 http fetch GET 200 https://registry.npmjs.org/commander/-/commander-15.0.0.tgz 352ms (cache miss)
+346 http fetch GET 200 https://registry.npmjs.org/webdriver-bidi-protocol/-/webdriver-bidi-protocol-0.4.3.tgz 375ms (cache miss)
+347 http fetch GET 200 https://registry.npmjs.org/yargs/-/yargs-18.2.0.tgz 458ms (cache miss)
+348 http fetch GET 200 https://registry.npmjs.org/@puppeteer/browsers/-/browsers-3.2.3.tgz 632ms (cache miss)
+349 http fetch GET 200 https://registry.npmjs.org/devtools-protocol/-/devtools-protocol-0.0.1687809.tgz 667ms (cache miss)
+350 http fetch GET 200 https://registry.npmjs.org/katex/-/katex-0.19.0.tgz 1065ms (cache miss)
+351 http fetch GET 200 https://registry.npmjs.org/@napi-rs/canvas-win32-x64-msvc/-/canvas-win32-x64-msvc-1.0.10.tgz 1158ms (cache miss)
+352 http fetch GET 200 https://registry.npmjs.org/chromium-bidi/-/chromium-bidi-17.0.2.tgz 1262ms (cache miss)
+353 http fetch GET 200 https://registry.npmjs.org/zod/-/zod-3.25.76.tgz 1716ms (cache miss)
+354 http fetch GET 200 https://registry.npmjs.org/puppeteer-core/-/puppeteer-core-25.12.0.tgz 2033ms (cache miss)
+355 http fetch GET 200 https://registry.npmjs.org/pdfjs-dist/-/pdfjs-dist-6.3.289.tgz 2239ms (cache miss)
+356 silly ADD node_modules/emoji-regex
+357 silly ADD node_modules/ansi-styles
+358 silly ADD node_modules/ansi-regex
+359 silly ADD node_modules/get-east-asian-width
+360 silly ADD node_modules/wrap-ansi
+361 silly ADD node_modules/wrap-ansi/node_modules/string-width
+362 silly ADD node_modules/strip-ansi
+363 silly ADD node_modules/yargs-parser
+364 silly ADD node_modules/y18n
+365 silly ADD node_modules/string-width
+366 silly ADD node_modules/get-caller-file
+367 silly ADD node_modules/escalade
+368 silly ADD node_modules/cliui
+369 silly ADD node_modules/cliui/node_modules/string-width
+370 silly ADD node_modules/zod
+371 silly ADD node_modules/mitt
+372 silly ADD node_modules/yargs
+373 silly ADD node_modules/modern-tar
+374 silly ADD node_modules/ws
+375 silly ADD node_modules/webdriver-bidi-protocol
+376 silly ADD node_modules/typed-query-selector
+377 silly ADD node_modules/devtools-protocol
+378 silly ADD node_modules/chromium-bidi
+379 silly ADD node_modules/@puppeteer/browsers
+380 silly ADD node_modules/commander
+381 silly ADD node_modules/@napi-rs/canvas-win32-x64-msvc
+382 silly ADD node_modules/@napi-rs/canvas-win32-arm64-msvc
+383 silly ADD node_modules/@napi-rs/canvas-linux-x64-musl
+384 silly ADD node_modules/@napi-rs/canvas-linux-x64-gnu
+385 silly ADD node_modules/@napi-rs/canvas-linux-riscv64-gnu
+386 silly ADD node_modules/@napi-rs/canvas-linux-arm64-musl
+387 silly ADD node_modules/@napi-rs/canvas-linux-arm64-gnu
+388 silly ADD node_modules/@napi-rs/canvas-linux-arm-gnueabihf
+389 silly ADD node_modules/@napi-rs/canvas-darwin-x64
+390 silly ADD node_modules/@napi-rs/canvas-darwin-arm64
+391 silly ADD node_modules/@napi-rs/canvas-android-arm64
+392 silly ADD node_modules/puppeteer-core
+393 silly ADD node_modules/pdfjs-dist
+394 silly ADD node_modules/marked
+395 silly ADD node_modules/katex
+396 silly ADD node_modules/@napi-rs/canvas
+397 verbose cwd C:\TQTG_notes
+398 verbose os Windows_NT 10.0.26300
+399 verbose node v26.8.1
+400 verbose npm  v11.4.2
+401 notice
+401 notice New major version of npm available! 11.4.2 -> 12.2.0
+401 notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+401 notice To update run: npm install -g npm@12.2.0
+401 notice  { force: true, Symbol(proc-log.meta): true }
+402 verbose exit 0
+403 info ok
